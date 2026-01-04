@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7TobUJW+yyb9geUXnEZiweL/DxPW2gEeoK67VoLuMaC9r0LJjSJbTigtydUHtGyFrGm+nIWmy2SxUWtYYH8iGg==",
+  "success": true,
+  "projectFilePath": "C:\\Udemy\\MicroservicesWithAWS_Dotnet_SearchAPI\\SearchApi\\SearchApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dibanubh\\.nuget\\packages\\elastic.clients.elasticsearch\\9.2.2\\elastic.clients.elasticsearch.9.2.2.nupkg.sha512",
+    "C:\\Users\\dibanubh\\.nuget\\packages\\elastic.transport\\0.10.1\\elastic.transport.0.10.1.nupkg.sha512",
+    "C:\\Users\\dibanubh\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\dibanubh\\.nuget\\packages\\polly\\8.6.5\\polly.8.6.5.nupkg.sha512",
+    "C:\\Users\\dibanubh\\.nuget\\packages\\polly.core\\8.6.5\\polly.core.8.6.5.nupkg.sha512"
+  ],
+  "logs": []
+}

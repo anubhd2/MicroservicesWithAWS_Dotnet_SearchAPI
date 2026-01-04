@@ -1,0 +1,331 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Elastic.Clients.Elasticsearch/9.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Elastic.Transport": "0.10.1"
+        },
+        "compile": {
+          "lib/net8.0/Elastic.Clients.Elasticsearch.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Elastic.Clients.Elasticsearch.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Elastic.Transport/0.10.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "compile": {
+          "lib/net8.0/Elastic.Transport.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Elastic.Transport.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
+      "Polly/8.6.5": {
+        "type": "package",
+        "dependencies": {
+          "Polly.Core": "8.6.5"
+        },
+        "compile": {
+          "lib/net6.0/Polly.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Polly.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Polly.Core/8.6.5": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Polly.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Polly.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Elastic.Clients.Elasticsearch/9.2.2": {
+      "sha512": "4X2a9r+4YvzJY5b26OFRhOcfisAZuz7XSvkgmUWcbFJi17VlelPC9mjxuyTEz+3g7uoQ0CNDR6eXzYyoggIt6w==",
+      "type": "package",
+      "path": "elastic.clients.elasticsearch/9.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "elastic.clients.elasticsearch.9.2.2.nupkg.sha512",
+        "elastic.clients.elasticsearch.nuspec",
+        "lib/net462/Elastic.Clients.Elasticsearch.dll",
+        "lib/net462/Elastic.Clients.Elasticsearch.xml",
+        "lib/net8.0/Elastic.Clients.Elasticsearch.dll",
+        "lib/net8.0/Elastic.Clients.Elasticsearch.xml",
+        "lib/net9.0/Elastic.Clients.Elasticsearch.dll",
+        "lib/net9.0/Elastic.Clients.Elasticsearch.xml",
+        "lib/netstandard2.0/Elastic.Clients.Elasticsearch.dll",
+        "lib/netstandard2.0/Elastic.Clients.Elasticsearch.xml",
+        "lib/netstandard2.1/Elastic.Clients.Elasticsearch.dll",
+        "lib/netstandard2.1/Elastic.Clients.Elasticsearch.xml",
+        "nuget-icon.png"
+      ]
+    },
+    "Elastic.Transport/0.10.1": {
+      "sha512": "8qUyxd4LzMiR+wtNEzdHHnu+iEpbKfoA001NyYgZZT0YZaNE9fWmFeZMxcTz7HMcYUidZSeT6vvongjZh1j/hQ==",
+      "type": "package",
+      "path": "elastic.transport/0.10.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "elastic.transport.0.10.1.nupkg.sha512",
+        "elastic.transport.nuspec",
+        "lib/net462/Elastic.Transport.dll",
+        "lib/net462/Elastic.Transport.pdb",
+        "lib/net462/Elastic.Transport.xml",
+        "lib/net8.0/Elastic.Transport.dll",
+        "lib/net8.0/Elastic.Transport.pdb",
+        "lib/net8.0/Elastic.Transport.xml",
+        "lib/netstandard2.0/Elastic.Transport.dll",
+        "lib/netstandard2.0/Elastic.Transport.pdb",
+        "lib/netstandard2.0/Elastic.Transport.xml",
+        "lib/netstandard2.1/Elastic.Transport.dll",
+        "lib/netstandard2.1/Elastic.Transport.pdb",
+        "lib/netstandard2.1/Elastic.Transport.xml",
+        "license.txt",
+        "nuget-icon.png",
+        "paket-installmodel.cache"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "paket-installmodel.cache",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Polly/8.6.5": {
+      "sha512": "VqtW2ZE/ALvQMAH1cQY3qZ2cF2OXa3oe/HKMdOv6Q02HCoEW0rsFNfcBONXlHBe1TnjWW1vdRxBEkPeq0/2FHA==",
+      "type": "package",
+      "path": "polly/8.6.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net462/Polly.dll",
+        "lib/net462/Polly.pdb",
+        "lib/net462/Polly.xml",
+        "lib/net472/Polly.dll",
+        "lib/net472/Polly.pdb",
+        "lib/net472/Polly.xml",
+        "lib/net6.0/Polly.dll",
+        "lib/net6.0/Polly.pdb",
+        "lib/net6.0/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.pdb",
+        "lib/netstandard2.0/Polly.xml",
+        "package-icon.png",
+        "package-readme.md",
+        "polly.8.6.5.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
+    "Polly.Core/8.6.5": {
+      "sha512": "t+sUVrIwvo7UmsgHGgOG9F0GDZSRIm47u2ylH17Gvcv1q5hNEwgD5GoBlFyc0kh/pebmPyrAgvGsR/65ZBaXlg==",
+      "type": "package",
+      "path": "polly.core/8.6.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "lib/net462/Polly.Core.dll",
+        "lib/net462/Polly.Core.pdb",
+        "lib/net462/Polly.Core.xml",
+        "lib/net472/Polly.Core.dll",
+        "lib/net472/Polly.Core.pdb",
+        "lib/net472/Polly.Core.xml",
+        "lib/net6.0/Polly.Core.dll",
+        "lib/net6.0/Polly.Core.pdb",
+        "lib/net6.0/Polly.Core.xml",
+        "lib/net8.0/Polly.Core.dll",
+        "lib/net8.0/Polly.Core.pdb",
+        "lib/net8.0/Polly.Core.xml",
+        "lib/netstandard2.0/Polly.Core.dll",
+        "lib/netstandard2.0/Polly.Core.pdb",
+        "lib/netstandard2.0/Polly.Core.xml",
+        "package-icon.png",
+        "package-readme.md",
+        "polly.core.8.6.5.nupkg.sha512",
+        "polly.core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Elastic.Clients.Elasticsearch >= 9.2.2",
+      "Polly >= 8.6.5"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dibanubh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Udemy\\MicroservicesWithAWS_Dotnet_SearchAPI\\SearchApi\\SearchApi.csproj",
+      "projectName": "SearchApi",
+      "projectPath": "C:\\Udemy\\MicroservicesWithAWS_Dotnet_SearchAPI\\SearchApi\\SearchApi.csproj",
+      "packagesPath": "C:\\Users\\dibanubh\\.nuget\\packages\\",
+      "outputPath": "C:\\Udemy\\MicroservicesWithAWS_Dotnet_SearchAPI\\SearchApi\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dibanubh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "Elastic.Clients.Elasticsearch": {
+            "target": "Package",
+            "version": "[9.2.2, )"
+          },
+          "Polly": {
+            "target": "Package",
+            "version": "[8.6.5, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
